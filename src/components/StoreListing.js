@@ -38,6 +38,9 @@ function StoreListings() {
                 <p>Delivery * Pickup</p>
             </Col>
         </Row>
+        </Row>
+        <Col sm="1"></Col>
+        <Row >
     </Row>
 </Container>
 </div>
