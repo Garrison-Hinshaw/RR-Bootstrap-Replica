@@ -1,3 +1,11 @@
+import Image from 'react-bootstrap/Image'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+
+function StoreListings() {
+    return(
+<div>
 <h2>Browse stores in Houston</h2>
 <Container style={{ marginTop: "40px", textAlign: "center" }}>
     <Row style={{ borderBottom: "1px solid #E8E9EB", display: "flex", justifyContent: "space-evenly"}} >
@@ -32,3 +40,8 @@
         </Row>
     </Row>
 </Container>
+</div>
+    )
+}
+
+export default StoreListings
