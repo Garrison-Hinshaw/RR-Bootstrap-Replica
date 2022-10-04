@@ -11,7 +11,7 @@ function StoreListings() {
     <Row style={{ borderBottom: "1px solid #E8E9EB", display: "flex", justifyContent: "space-evenly"}} >
         <Row>
             <Col xs=".5" >
-                <Image src="[IMG SRC]" roundedCircle />
+                <Image src= 'https://place-puppy.com/100x100' roundedCircle />
             </Col>
             <Col>
                 <h5 style={{ fontWeight: "bold" }}>ALDI</h5>
@@ -21,7 +21,7 @@ function StoreListings() {
         <Col sm="1"></Col>
         <Row >
             <Col xs=".5">
-                <Image src="[IMG SRC]" roundedCircle />
+                <Image src= 'https://place-puppy.com/100x100' roundedCircle />
             </Col>
             <Col>
                 <h5 style={{ fontWeight: "bold" }}>Sprouts Farmers Market</h5>
@@ -31,11 +31,11 @@ function StoreListings() {
         <Col sm="1"></Col>
         <Row >
             <Col xs=".5" >
-                <Image src="[IMG SRC]" roundedCircle />
+                <Image src="https://place-puppy.com/100x100" roundedCircle />
             </Col>
             <Col md="6">
                 <h5 style={{ fontWeight: "bold" }}>Kroger</h5>
-                <p>Delivery</p>
+                <p>Delivery * Pickup</p>
             </Col>
         </Row>
     </Row>

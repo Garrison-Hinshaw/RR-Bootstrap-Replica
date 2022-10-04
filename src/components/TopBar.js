@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav'
 import Button from 'react-bootstrap/Button'
 
 function TopBar(){
+    return(
 <Navbar bg="light" expand="lg" >
     <Navbar.Brand style={{margin: "5px 0 0 20px"}} href="#home">
         <img src="[Instacart logo src]" /> 
@@ -17,6 +18,7 @@ function TopBar(){
         </Nav>
     </Navbar.Collapse>
 </Navbar>
+    )
 }
 
 export default TopBar
